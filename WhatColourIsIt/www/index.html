@@ -3,7 +3,7 @@
 	<head>
 		<style>
 			@font-face {
-				font-family: 'open_sanslight';
+				font-family: 'Open Sans';
 				src: url('./fonts/OpenSans-Light-webfont.eot');
 				src: url('./fonts/OpenSans-Light-webfont.eot?#iefix')         format('embedded-opentype'),
 					 url('./fonts/OpenSans-Light-webfont.woff')               format('woff'),
@@ -22,68 +22,56 @@
 			}
 
 			body {
-				-webkit-transition:all 0.8s;
-
-				transition:all 0.8s;
+				-webkit-transition: background-color 0.8s;
+				transition: background-color 0.8s;
 			}
 
 			.main {
-				-webkit-transform: translateY(-50%);
-
 				position:   absolute;
 				top:        50%;
 				text-align: center;
+				-webkit-transform: translateY(-50%);
 				transform:  translateY(-50%);
 				width:      100%;
 			}
 
 			h1, h2 {
 				color:       #fff;
-				font-family: "open_sanslight";
+				font-family: 'Open Sans';
 				font-weight: 300;
 			}
 
-			h1 {
-				font-size:120px;
-			}
-
-			h2 {
-				font-size:30px;
-			}
+			h1 { font-size: 120px; }
+			h2 { font-size: 30px;  }
 		</style>
 	</head>
 
 	<body>
 		<main class="main">
-			<h1 id="t"></h1>
-			<h2 id="h"></h2>
+			<h1 id="time"></h1>
+			<h2 id="color"></h2>
 		</main>
 
 		<script>
-			function $(selector) {
-				return document.querySelector(selector);
-			};
+			function $(s) {
+				return document.querySelector(s);
+			}
+
+			function pad(str, pad) {
+				return (pad + str).slice(-pad.length - 1);
+			}
 
 			(function dotime () {
-				var d     = new Date();
-				var hours = d.getHours();
-				var mins  = d.getMinutes();
-				var secs  = d.getSeconds();
+				var date  = new Date();
+				var hours = pad(date.getHours(),   '0');
+				var mins  = pad(date.getMinutes(), '0');
+				var secs  = pad(date.getSeconds(), '0');
+				var color = '#' + hours + mins + secs;
 
-				if (hours < 10) hours = "0" + hours;
-				if (mins  < 10) mins  = "0" + mins;
-				if (secs  < 10) secs  = "0" + secs;
+				$('#time').innerHTML  = [hours, mins, secs].join(' : ');
+				$('#color').innerHTML = color;
 
-				hours.toString();
-				mins.toString();
-				secs.toString();
-
-				var hex = "#" + hours + mins + secs;
-
-				$("#t").innerHTML = (hours +" : "+ mins +" : "+ secs);
-				$("#h").innerHTML = hex;
-
-				$('body').style.background = hex;
+				document.body.style.background = color;
 
 				setTimeout(function () {
 					dotime();
