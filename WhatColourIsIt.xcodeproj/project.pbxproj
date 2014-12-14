@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87E3F7C1A3DED8300B6BFF9 /* WhatColourIsItView.h in Headers */ = {isa = PBXBuildFile; fileRef = D87E3F7B1A3DED8300B6BFF9 /* WhatColourIsItView.h */; };
+		D87E3F7E1A3DED8300B6BFF9 /* WhatColourIsItView.m in Sources */ = {isa = PBXBuildFile; fileRef = D87E3F7D1A3DED8300B6BFF9 /* WhatColourIsItView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D87E3F761A3DED8300B6BFF9 /* WhatColourIsIt.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatColourIsIt.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87E3F7A1A3DED8300B6BFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87E3F7B1A3DED8300B6BFF9 /* WhatColourIsItView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatColourIsItView.h; sourceTree = "<group>"; };
+		D87E3F7D1A3DED8300B6BFF9 /* WhatColourIsItView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatColourIsItView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87E3F721A3DED8300B6BFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87E3F6C1A3DED8300B6BFF9 = {
+			isa = PBXGroup;
+			children = (
+				D87E3F781A3DED8300B6BFF9 /* WhatColourIsIt */,
+				D87E3F771A3DED8300B6BFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87E3F771A3DED8300B6BFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87E3F761A3DED8300B6BFF9 /* WhatColourIsIt.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87E3F781A3DED8300B6BFF9 /* WhatColourIsIt */ = {
+			isa = PBXGroup;
+			children = (
+				D87E3F7B1A3DED8300B6BFF9 /* WhatColourIsItView.h */,
+				D87E3F7D1A3DED8300B6BFF9 /* WhatColourIsItView.m */,
+				D87E3F791A3DED8300B6BFF9 /* Supporting Files */,
+			);
+			path = WhatColourIsIt;
+			sourceTree = "<group>";
+		};
+		D87E3F791A3DED8300B6BFF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87E3F7A1A3DED8300B6BFF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D87E3F731A3DED8300B6BFF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87E3F7C1A3DED8300B6BFF9 /* WhatColourIsItView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D87E3F751A3DED8300B6BFF9 /* WhatColourIsIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87E3F811A3DED8300B6BFF9 /* Build configuration list for PBXNativeTarget "WhatColourIsIt" */;
+			buildPhases = (
+				D87E3F711A3DED8300B6BFF9 /* Sources */,
+				D87E3F721A3DED8300B6BFF9 /* Frameworks */,
+				D87E3F731A3DED8300B6BFF9 /* Headers */,
+				D87E3F741A3DED8300B6BFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatColourIsIt;
+			productName = WhatColourIsIt;
+			productReference = D87E3F761A3DED8300B6BFF9 /* WhatColourIsIt.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87E3F6D1A3DED8300B6BFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonic Linley";
+				TargetAttributes = {
+					D87E3F751A3DED8300B6BFF9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D87E3F701A3DED8300B6BFF9 /* Build configuration list for PBXProject "WhatColourIsIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D87E3F6C1A3DED8300B6BFF9;
+			productRefGroup = D87E3F771A3DED8300B6BFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87E3F751A3DED8300B6BFF9 /* WhatColourIsIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87E3F741A3DED8300B6BFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87E3F711A3DED8300B6BFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87E3F7E1A3DED8300B6BFF9 /* WhatColourIsItView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D87E3F7F1A3DED8300B6BFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D87E3F801A3DED8300B6BFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D87E3F821A3DED8300B6BFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatColourIsIt/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		D87E3F831A3DED8300B6BFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatColourIsIt/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87E3F701A3DED8300B6BFF9 /* Build configuration list for PBXProject "WhatColourIsIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87E3F7F1A3DED8300B6BFF9 /* Debug */,
+				D87E3F801A3DED8300B6BFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87E3F811A3DED8300B6BFF9 /* Build configuration list for PBXNativeTarget "WhatColourIsIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87E3F821A3DED8300B6BFF9 /* Debug */,
+				D87E3F831A3DED8300B6BFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D87E3F6D1A3DED8300B6BFF9 /* Project object */;
+}
