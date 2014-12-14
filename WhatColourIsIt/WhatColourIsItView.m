@@ -7,15 +7,22 @@
 //
 
 #import "WhatColourIsItView.h"
+#import <WebKit/WebKit.h>
 
 @implementation WhatColourIsItView
 
 - (instancetype)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
     self = [super initWithFrame:frame isPreview:isPreview];
+
     if (self) {
-        [self setAnimationTimeInterval:1/30.0];
+        webView = [[WebView alloc] initWithFrame:[self bounds] frameName:nil groupName:nil];
+        
+        [webView setMainFrameURL:[NSString stringWithFormat:@"file://%@/www/index.html", [[NSBundle bundleForClass:[self class]] resourcePath]]];
+        
+        [self addSubview:webView];
     }
+    
     return self;
 }
 

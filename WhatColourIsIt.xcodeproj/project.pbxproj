@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D87E3F7C1A3DED8300B6BFF9 /* WhatColourIsItView.h in Headers */ = {isa = PBXBuildFile; fileRef = D87E3F7B1A3DED8300B6BFF9 /* WhatColourIsItView.h */; };
 		D87E3F7E1A3DED8300B6BFF9 /* WhatColourIsItView.m in Sources */ = {isa = PBXBuildFile; fileRef = D87E3F7D1A3DED8300B6BFF9 /* WhatColourIsItView.m */; };
+		D87E3F851A3DEE3C00B6BFF9 /* www in Resources */ = {isa = PBXBuildFile; fileRef = D87E3F841A3DEE3C00B6BFF9 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		D87E3F7A1A3DED8300B6BFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87E3F7B1A3DED8300B6BFF9 /* WhatColourIsItView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatColourIsItView.h; sourceTree = "<group>"; };
 		D87E3F7D1A3DED8300B6BFF9 /* WhatColourIsItView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatColourIsItView.m; sourceTree = "<group>"; };
+		D87E3F841A3DEE3C00B6BFF9 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = WhatColourIsIt/www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 		D87E3F6C1A3DED8300B6BFF9 = {
 			isa = PBXGroup;
 			children = (
+				D87E3F841A3DEE3C00B6BFF9 /* www */,
 				D87E3F781A3DED8300B6BFF9 /* WhatColourIsIt */,
 				D87E3F771A3DED8300B6BFF9 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87E3F851A3DEE3C00B6BFF9 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

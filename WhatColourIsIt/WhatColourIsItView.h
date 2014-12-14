@@ -7,7 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <WebKit/WebKit.h>
 
 @interface WhatColourIsItView : ScreenSaverView
+{
+    WebView *webView;
+}
 
 @end
