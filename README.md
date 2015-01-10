@@ -15,3 +15,5 @@ Screensaver by Jonic Linley - http://100yen.co.uk/
 ## Anything else?
 
 This was built on Yosemite - no guarantees it will work on your Mac! If it doesn't, then there's the source code so you can fix it!
+
+Also available as a Chrome Extension that shows this in new tabs: https://github.com/Jonic/WhatColourIsIt-NewTab
