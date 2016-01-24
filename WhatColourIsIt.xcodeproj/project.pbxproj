@@ -104,7 +104,7 @@
 		D87E3F6D1A3DED8300B6BFF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jonic Linley";
 				TargetAttributes = {
 					D87E3F751A3DED8300B6BFF9 = {
@@ -171,6 +171,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -232,6 +233,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WhatColourIsIt/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.100yen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -243,6 +245,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WhatColourIsIt/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.100yen.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -267,6 +270,7 @@
 				D87E3F831A3DED8300B6BFF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
